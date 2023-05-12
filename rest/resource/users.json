@@ -1,0 +1,55 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "email": "example@gmail.com",
+    "age": 32,
+    "city": "New York",
+    "country": "USA",
+    "isPremium": true
+  },
+  {
+    "id": 2,
+    "name": "Jane Smith",
+    "email": "janesmith@example.com",
+    "age": 27,
+    "city": "London",
+    "country": "UK",
+    "isPremium": false
+  },
+  {
+    "id": 3,
+    "name": "Bob Johnson",
+    "email": "bobjohnson@example.com",
+    "age": 45,
+    "city": "Los Angeles",
+    "country": "USA",
+    "isPremium": true
+  },
+  {
+    "name": "John Doe",
+    "email": "example@gmail",
+    "age": 30,
+    "city": "New York",
+    "country": "USA",
+    "isPremium": true
+  },
+  {
+    "id": 30,
+    "name": "John Doe",
+    "email": "example@gmail",
+    "age": 30,
+    "city": "New York",
+    "country": "USA",
+    "isPremium": true
+  },
+  {
+    "id": 30,
+    "name": "John Doe",
+    "email": "example@gmail",
+    "age": 30,
+    "city": "New York",
+    "country": "USA",
+    "isPremium": true
+  }
+]
