@@ -4,12 +4,14 @@ const port = process.env.PORT || 4000;
 const cors = require('cors');
 const userController = require("./controller/userController");
 const randomNumberController = require("./controller/randomNumberController");
+const countCharacterController = require("./controller/countCharacterController");
 
 app.use(express.json());
 app.use(cors());
 
 app.get("/api/v1/person",userController);
 app.get("/api/v1/random",randomNumberController)
+app.get("/api/v1/count",countCharacterController)
 
 app.get('/health', (req, res) => {
     res.status(200).json({ status: 'ok' });
